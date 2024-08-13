@@ -1,0 +1,6 @@
+designing notes
+
+Structure accomodates for artist features like comms sheets
+Filter chats by artist/commissioner (based on why the chat was opened)
+accounts should have other attributes related to art like post likes, # of commissions, 
+#comms opened/closed, etc

@@ -1,0 +1,29 @@
+* { /*Remove HTML default behavivors*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { /*Entire webpage body*/
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.main-container { /*Chat app body*/
+
+  /*Background styling*/
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(52, 52, 177, 0.462); /*last value changes opacity*/
+  backdrop-filter: blur(19px) saturate(180%); /*glassy effect*/
+  border-radius: 20px;
+  border: 1px solid rgba(182, 146, 235, 0.666);
+
+  /*Details, Chat, List sections styling*/
+  display: flex;
+  
+}
